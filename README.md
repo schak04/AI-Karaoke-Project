@@ -21,7 +21,7 @@ This project demonstrates a **basic level of AI integration** through:
 
 - **Intelligent lyric parsing** using NLP-like filtering to clean up non-singing parts like `[Chorus]`, `[Verse]`, etc.
 - **Synchronized timing logic**, where lyric display is mapped proportionally across the total audio duration.
-- While no deep learning model is used, the real-time behavior mimics human timing and enhances interactivity using simple automation and logic.
+- While no deep learning model is used, the real-time behaviour mimics human timing and enhances interactivity using simple automation and logic.
 
 ---
 
@@ -64,10 +64,12 @@ This project demonstrates a **basic level of AI integration** through:
 
 ## Notes
 
-- An internet connection is required (for fetching lyrics and karaoke audio).
+- An internet connection is required for fetching lyrics and karaoke audio.
 - Avoid using special characters in song names.
+- If multiple songs have the same name, include the artist or band in your search.
+Format: `<song> <artist/band>` instead of just `<song>`.
 - Console must support ANSI escape codes (most modern terminals do).
-- `build.bat` is for developers only — run it to rebuild `karaoke_project.exe` after making code changes.
+- `build.bat` is for developers only. It can be used to rebuild `karaoke_project.exe` after making code changes.
 
 ---
 
